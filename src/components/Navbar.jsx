@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className=" sticky top-0 z-50">
       <div className="flex flex-row justify-between p-5 px-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div>
           <Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
@@ -24,6 +24,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={handleChange}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             Home
@@ -33,6 +34,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={handleChange}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             About
@@ -42,6 +44,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={handleChange}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             Courses
@@ -51,6 +54,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={handleChange}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             Reviews
@@ -60,6 +64,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={handleChange}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             Contact
@@ -82,6 +87,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          onClick={handleChange}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
           Home
@@ -91,6 +97,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          onClick={handleChange}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
           About
@@ -100,6 +107,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          onClick={handleChange}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
           Courses
@@ -109,6 +117,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          onClick={handleChange}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
           Reviews
@@ -118,6 +127,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          onClick={handleChange}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
           Contact
